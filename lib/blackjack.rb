@@ -20,7 +20,7 @@ end
 
 def get_user_input
   # code #get_user_input here
-  gets.prompt_user
+  user_input = gets.prompt_user()
 end
 
 def end_game
