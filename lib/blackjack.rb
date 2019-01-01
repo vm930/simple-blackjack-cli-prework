@@ -13,7 +13,8 @@ end
 
 def prompt_user
   # code #prompt_user here
-  prints "Type 'h' to hit or 's' to stay"
+  puts "Type 'h' to hit or 's' to stay"
+  input = gets
 end
 
 def get_user_input
