@@ -23,8 +23,11 @@ def get_user_input
   user_input = gets.prompt_user()
 end
 
-def end_game
+def end_game(num)
   # code #end_game here
+  if num === card_total
+  puts "Sorry, you hit #{card_total}. Thanks for playing!"
+  end
 end
 
 def initial_round
