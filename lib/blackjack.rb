@@ -25,7 +25,7 @@ end
 def end_game(num)
   # code #end_game here
   card_total = display_card_total
-  if num === display_card_total
+  if num === card_total
    puts "Sorry, you hit #{card_total}. Thanks for playing!"
   end
 end
