@@ -5,6 +5,7 @@ end
 
 def deal_card
   # code #deal_card here
+  puts f
   
 end
 
