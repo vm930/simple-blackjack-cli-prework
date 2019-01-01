@@ -14,12 +14,12 @@ end
 def prompt_user
   # code #prompt_user here
   puts "Type 'h' to hit or 's' to stay"
-  input = gets
 end
 
 def get_user_input
   # code #get_user_input here
-  user_input = gets.prompt_user()
+  prompt_user
+  input = gets
 end
 
 def end_game(num)
