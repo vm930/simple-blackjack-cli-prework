@@ -42,7 +42,7 @@ def hit?
   user_input = get_user_input
   if user_input === "h"
     deal_card
-  else user_input !== "h" || user_input !== "s"
+  else if user_input !== "h" || user_input !== "s"
     invalid_command
   end
 end
