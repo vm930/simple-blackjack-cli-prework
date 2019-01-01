@@ -4,10 +4,7 @@ def welcome
 end
 
 def deal_card
-  # code #deal_card here
-  for counter in 1..11 do
-  puts "The current number is #{counter}."
-  end
+  
 end
 
 def display_card_total
