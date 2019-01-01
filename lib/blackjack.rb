@@ -15,7 +15,7 @@ end
 
 def prompt_user
   # code #prompt_user here
-  input = 
+  prints = ""
 end
 
 def get_user_input
