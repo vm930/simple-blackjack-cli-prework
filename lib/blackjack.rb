@@ -29,7 +29,7 @@ end
 
 def initial_round
   # code #initial_round here
-  sum = display_card_total
+  sum = display_card_total(deal_card)
   
 end
 
