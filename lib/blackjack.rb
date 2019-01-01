@@ -19,7 +19,7 @@ def get_user_input
   input = gets
 end
 
-def end_game(num)
+def end_game
   # code #end_game here
   card_total = display_card_total()
   if num === card_total
